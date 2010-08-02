@@ -25,9 +25,6 @@ the Java compiler.
 It's a trivial compilation -- I'm sure it's also very easy to compile in a 
 Windows environment.
 
-A jar file can be made using a simple command such as the one in the package.sh 
-script.
-
 USAGE
 
 It takes QTI XML either as standard input or via a filename given as an 
@@ -40,9 +37,6 @@ perl getrandomquestion.pl | ./run.sh
 These examples use the provided wrapper script run.sh, which sources 
 classpath.sh just as the make script does and invokes Java. On other 
 environments a similarly simple invocation should be possible.
-
-If a jar file has been produced the program can be invoked with
-java -jar Validate.jar file.xml
 
 OUTPUT
 
